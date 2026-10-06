@@ -1,0 +1,5 @@
+[
+  { "name": "Assertion failures", "matchedStatuses": ["failed"], "messageRegex": ".*expected.*" },
+  { "name": "Element not found / timeout", "matchedStatuses": ["broken", "failed"], "messageRegex": ".*(NoSuchElement|Timeout).*" },
+  { "name": "Browser / driver problems", "matchedStatuses": ["broken"], "messageRegex": ".*(SessionNotCreated|WebDriverException|driver).*" }
+]

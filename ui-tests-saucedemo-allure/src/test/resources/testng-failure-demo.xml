@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Intentionally failing test, only to get a failed card with screenshot in Allure.
+     Run: mvn clean test -Pfailure-demo -->
+<suite name="Failure demo" verbose="1">
+    <test name="FailureDemo">
+        <classes>
+            <class name="tests.FailureDemoTest"/>
+        </classes>
+    </test>
+</suite>
